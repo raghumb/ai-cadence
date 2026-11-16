@@ -22,6 +22,22 @@ From foundation models and AI tools to agent frameworks, infrastructure, researc
 The goal is to go beyond news aggregation by providing concise, meaningful updates that explain **what changed, why it matters, and where to learn more.**
 
 
+## A Glimpse of What's Inside
+
+### ✨ REA — Reverse Engineer Anything
+
+*AI Tools · Agentic Engineering / Reverse Engineering*
+
+What if you could ask an AI agent to understand how an application works without access to its source code? [REA](https://github.com/morluto/rea) explores this possibility through agent-powered reverse engineering capabilities.
+
+### ✨ More discoveries from the AI ecosystem
+
+From emerging AI models and coding agents to open-source projects and research, explore developments that are worth knowing about.
+
+**[Explore all updates in Latest in AI →](content/latest-in-ai.md)**
+
+
+
 ## Our Philosophy
 
 ### Know What You Don't Know.
