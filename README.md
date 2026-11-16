@@ -1,12 +1,26 @@
+
+<div align="center">
+
 # AI Pulse
 
-**Latest in AI — A curated pulse of the evolving AI ecosystem.**
+### Latest in AI
 
-AI Pulse is an open-source initiative that tracks significant developments across the Artificial Intelligence ecosystem.
+**Discover the ideas, innovations, and developments shaping the future of AI — thoughtfully explored and carefully curated.**
+
+[Latest Updates](content/latest-in-ai.md) · [Archives](content/archive/index.md)
+
+*Know What You Don't Know.*
+
+</div>
+
+---
+
+AI Pulse is an open-source initiative that explores significant developments across the Artificial Intelligence ecosystem.
 
 From foundation models and AI tools to agent frameworks, infrastructure, research, and emerging innovations, AI Pulse aims to help developers, architects, researchers, and technology enthusiasts stay informed about what's happening in AI.
 
 The goal is to go beyond news aggregation by providing concise, meaningful updates that explain **what changed, why it matters, and where to learn more.**
+
 
 ## Our Philosophy
 
