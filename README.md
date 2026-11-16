@@ -56,13 +56,6 @@ It is not about consuming more information. It is about discovering what matters
 
 **Because knowing what you don't know is the beginning of meaningful learning.**
 
-## Latest Updates
-
-Follow the latest developments in Artificial Intelligence:
-
-**[Latest in AI](content/latest-in-ai.md)**
-
-The publication is maintained in reverse chronological order, with the newest developments appearing first.
 
 ## What We Cover
 
@@ -78,6 +71,8 @@ AI Pulse covers developments across the following areas:
 | **Research & Innovations** | Significant research papers, emerging techniques, and breakthroughs. |
 | **AI Security & Governance** | AI safety, agent security, identity, authorization, standards, and responsible AI. |
 | **Industry & Ecosystem** | Significant product launches, acquisitions, partnerships, and ecosystem developments. |
+
+The publication is maintained in reverse chronological order, with the newest developments appearing first.
 
 ## Repository Structure
 
