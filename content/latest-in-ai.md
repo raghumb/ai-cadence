@@ -6,7 +6,7 @@ Discover the innovations and developments shaping the future of AI — thoughtfu
 
 ### ✨ REA — Reverse Engineer Anything
 
-*![Category](https://img.shields.io/badge/AI_Tools-2563EB)*
+*![Category](https://img.shields.io/badge/AI_Tools-0D9488)*
 
 What if you could ask an AI agent to understand how a feature works inside an application, even when you don't have access to its source code? [REA](https://github.com/morluto/rea) makes this possible by giving agents a set of reverse-engineering capabilities through MCP. It can investigate websites, JavaScript and Electron applications, Android apps, .NET assemblies and native binaries, tracing application behaviour down to code, instructions and runtime evidence. Rather than relying solely on an agent's assumptions, REA provides findings and supporting evidence that the agent can use to explain existing behaviour or help build a similar implementation. An interesting direction for agent-assisted software investigation and reverse engineering.
 
@@ -14,7 +14,7 @@ What if you could ask an AI agent to understand how a feature works inside an ap
 
 ### ✨ Google Open-Sources the Elephant-Goldfish Model for AI-Assisted Software Development
 
-*![Category](https://img.shields.io/badge/AI_Assisted_Software_Development-2563EB)*
+*![Category](https://img.shields.io/badge/AI_Assisted_Software_Development-38A3D1)*
 
 Google has open-sourced its **Elephant-Goldfish Model (EGM)**, a methodology designed to make AI-assisted coding more reliable by separating software design from implementation and introducing independent AI reviews. The approach uses an "Elephant" — a long-running, context-rich AI session where developers discuss requirements, architecture, trade-offs and document implementation plans — and "Goldfish" reviewers, which operate in fresh, stateless contexts to challenge those plans, identify missing requirements, uncover edge cases and verify implementation readiness. The idea is to reduce context bias and catch design flaws before they turn into code. Originally developed for internal use at Google, the open-source plugin is available under the Apache 2.0 license and supports coding environments including Antigravity, Claude Code and Codex.
 
