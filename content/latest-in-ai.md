@@ -14,7 +14,7 @@ What if you could ask an AI agent to understand how a feature works inside an ap
 
 ### ✨ Google Open-Sources the Elephant-Goldfish Model for AI-Assisted Software Development
 
-*![Category](https://img.shields.io/badge/AI_Assisted_Software_Development-38A3D1)*
+*![Category](https://img.shields.io/badge/AI_Assisted_Software_Development-0D9488)*
 
 Google has open-sourced its **Elephant-Goldfish Model (EGM)**, a methodology designed to make AI-assisted coding more reliable by separating software design from implementation and introducing independent AI reviews. The approach uses an "Elephant" — a long-running, context-rich AI session where developers discuss requirements, architecture, trade-offs and document implementation plans — and "Goldfish" reviewers, which operate in fresh, stateless contexts to challenge those plans, identify missing requirements, uncover edge cases and verify implementation readiness. The idea is to reduce context bias and catch design flaws before they turn into code. Originally developed for internal use at Google, the open-source plugin is available under the Apache 2.0 license and supports coding environments including Antigravity, Claude Code and Codex.
 
@@ -29,7 +29,7 @@ Google has open-sourced its **Elephant-Goldfish Model (EGM)**, a methodology des
 
 ### ✨ Google Gemini 4: A Multi-Model Approach to AI-Assisted Software Development
 
-*![Category](https://img.shields.io/badge/AI_Models-2563EB)*
+*![Category](https://img.shields.io/badge/AI_Models-0D9488)*
 
 Google is expanding its Gemini 4 model family with three models targeting different levels of intelligence, speed and efficiency: **Carbon, Argon and Hydrogen**. Rather than relying on a single model for every task, Google is positioning them for complementary roles in agentic workflows. Carbon is designed for complex, long-horizon tasks involving deep reasoning, architectural decisions, multi-step coding and debugging. Argon targets demanding software engineering and knowledge-work tasks, while Hydrogen focuses on fast execution for everyday coding, testing and agentic workflows. 
 
@@ -42,7 +42,7 @@ What's particularly interesting is Google's introduction of **Orchestrator in An
 
 ### ✨ Graphify: Turning Codebases into Knowledge Graphs for AI Coding Assistants
 
-*![Category](https://img.shields.io/badge/AI_Assisted_Software_Development-2563EB)*
+*![Category](https://img.shields.io/badge/AI_Assisted_Software_Development-0D9488)*
 
 Ever run into situations where your AI coding agent refers to methods that don't exist, misses important dependencies, or simply doesn't seem to have the right context about your codebase?
 
