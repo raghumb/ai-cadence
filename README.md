@@ -5,7 +5,7 @@
 
 ### Latest in AI
 
-**Discover the ideas, innovations, and developments shaping the future of AI — thoughtfully explored and carefully curated.**
+**Discover the innovations and developments shaping the future of AI — thoughtfully explored and carefully curated.**
 
 [Latest Updates](content/latest-in-ai.md) · [Archives](content/archive/index.md)
 
