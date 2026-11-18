@@ -2,6 +2,20 @@
 
 Discover the innovations and developments shaping the future of AI — thoughtfully explored and carefully curated.
 
+## 17 November 2026
+
+### ✨ PageIndex: Rethinking RAG Without Vector Databases
+*![Category](https://img.shields.io/badge/AI_Frameworks_&_Platforms-0D9488)*
+
+What if you could build a RAG system without vector databases, embeddings or traditional document chunking? [PageIndex](https://github.com/VectifyAI/PageIndex) takes a different approach to information retrieval by creating a hierarchical tree index of documents and using LLM reasoning to navigate that structure and identify relevant information. Inspired by how humans navigate lengthy reports by looking at their table of contents and locating relevant sections, PageIndex enables context-aware retrieval with traceable references to the original document. This approach is particularly interesting for complex, lengthy documents such as financial reports, legal filings, regulatory documents and technical manuals, where semantic similarity alone may not be sufficient to identify the right information.
+
+**References:**
+- [GitHub – VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)
+- [PageIndex – Official Website](https://pageindex.ai/)
+- [PageIndex – Documentation](https://docs.pageindex.ai/)
+
+---
+
 ## 16 November 2026
 
 ### ✨ REA — Reverse Engineer Anything
