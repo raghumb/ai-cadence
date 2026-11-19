@@ -1,9 +1,7 @@
 
 <div align="center">
 
-# AI Pulse
-
-### Latest in AI
+# Latest in AI
 
 **Discover the innovations and developments shaping the future of AI — thoughtfully explored and carefully curated.**
 
@@ -15,9 +13,9 @@
 
 ---
 
-AI Pulse is an open-source initiative that explores significant developments across the Artificial Intelligence ecosystem.
+'Latest in AI' is an open-source initiative that explores significant developments across the Artificial Intelligence ecosystem.
 
-From foundation models and AI tools to agent frameworks, infrastructure, research, and emerging innovations, AI Pulse aims to help developers, architects, researchers, and technology enthusiasts stay informed about what's happening in AI.
+From foundation models and AI tools to agent frameworks, infrastructure, research, and emerging innovations, 'Latest in AI' aims to help developers, architects, researchers, and technology enthusiasts stay informed about what's happening in AI.
 
 The goal is to go beyond news aggregation by providing concise, meaningful updates that explain **what changed, why it matters, and where to learn more.**
 
@@ -48,7 +46,7 @@ But there is a deeper challenge: sometimes, we don't even know what we are missi
 
 The biggest knowledge gaps are not always the things we know we don't understand, but the things we don't yet realize we should understand.
 
-AI Pulse is built around this idea.
+'Latest in AI' is built around this idea.
 
 Through hand-curated developments across the AI ecosystem, the aim is to broaden awareness, uncover emerging ideas, and help people discover technologies and concepts they might otherwise miss.
 
@@ -59,7 +57,7 @@ It is not about consuming more information. It is about discovering what matters
 
 ## What We Cover
 
-AI Pulse covers developments across the following areas:
+'Latest in AI' covers developments across the following areas:
 
 | Category | Coverage |
 |---|---|
@@ -77,7 +75,7 @@ The publication is maintained in reverse chronological order, with the newest de
 ## Repository Structure
 
 ```text
-ai-pulse/
+latest-in-ai/
 ├── README.md
 ├── LICENSE
 └── content/
@@ -98,7 +96,7 @@ The latest publication is maintained as a rolling collection. Older entries are 
 
 ## Editorial Principles
 
-AI Pulse aims to maintain a high standard of relevance, accuracy, and usefulness.
+'Latest in AI' aims to maintain a high standard of relevance, accuracy, and usefulness.
 
 - **Curated, not exhaustive:** Focus on meaningful developments rather than publishing every AI announcement.
 - **Source-driven:** Prefer official announcements, documentation, research papers, and original repositories.
@@ -115,10 +113,10 @@ The AI ecosystem will continue to evolve, and no single person can know everythi
 
 What matters is staying curious, remaining open to new ideas, and being aware of the boundaries of our knowledge.
 
-AI Pulse is a small step towards making that journey easier.
+'Latest in AI' is a small step towards making that journey easier.
 
 **Stay curious. Discover what you don't know. Keep learning.**
 
 ---
 
-*AI Pulse is an independent, community-driven open-source project. It is not affiliated with any AI vendor or technology provider.*
+*'Latest in AI' is an independent, community-driven open-source project. It is not affiliated with any AI vendor or technology provider.*
