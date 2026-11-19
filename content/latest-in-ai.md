@@ -2,6 +2,24 @@
 
 Discover the innovations and developments shaping the future of AI — thoughtfully explored and carefully curated.
 
+## 18 November 2026
+
+### ✨ Harness² – Recursive Agent Harnessing
+*![Category](https://img.shields.io/badge/AI_Frameworks_&_Platforms-0D9488)*
+
+Google Research has introduced **Harness²**, an open-source framework that explores how AI agents can improve their own execution harnesses through recursive refinement, without changing or retraining the underlying model. Instead of focusing solely on better models, Harness² focuses on improving the components surrounding an agent – system prompts, guardrails, memory, tools, skills, scripts, subagents and orchestration.
+
+Its approach follows a **Propose–Probe–Compose** cycle: propose modifications to the agent harness, execute the same task using the modified configurations, compare their behaviour against the original execution, and compose the improvements supported by the observed evidence. It introduces two levels of recursion: task-level refinement, which improves the harness for the current task, and harnessing-level refinement, which retains adopted improvements and evidence-backed lessons to guide future tasks.
+
+The project supports both parallel and sequential refinement and can work with OpenCode and Codex executors. Its benchmark results suggest that improving the agent's execution environment can produce meaningful performance gains without changing model weights. An interesting direction for the evolution of self-improving agent systems.
+
+**Explore:**
+- [GitHub Repository](https://github.com/google-research/harness2)
+- [Research Paper – Harness²: Recursive Agent Harnessing for an Open World](https://arxiv.org/abs/2610.14224)
+- [Project Overview](https://harness2.app/)
+
+---
+
 ## 17 November 2026
 
 ### ✨ PageIndex: Rethinking RAG Without Vector Databases
