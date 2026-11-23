@@ -2,6 +2,21 @@
 
 Discover the innovations and developments shaping the future of AI — thoughtfully explored and carefully curated.
 
+## 19 November 2026
+### ✨ Jeveration – Bringing System One Thinking to Image Generation
+*![Category](https://img.shields.io/badge/AI_Research-0D9488)*
+
+Researchers from the National University of Singapore introduce Jeveration, an interesting approach that challenges the conventional multi-step image-generation paradigm. It builds on the decision paradigm demonstrated by Jev. Instead of relying on iterative denoising, Jeveration repurposes a frozen vision-language model to generate coherent images in a single forward pass. It coordinates parallel predictions using a shared random state, allowing the model to produce diverse yet globally consistent images. Interestingly, the same architecture supports text-to-image generation, image-to-image transformation and dense prediction. The researchers report generating 512×512 images in just 78 ms, claiming up to 122× faster generation than existing unified models while maintaining competitive image quality. This research points towards a potentially important shift in generative AI: moving from iterative generation towards fast, parallel prediction.
+
+**References:**
+- [Hugging Face Papers – Jeveration](https://huggingface.co/papers/2611.24738)
+- [Research paper – arXiv](https://arxiv.org/abs/2611.24738)
+- [Project page and demos](https://carol-lyh.github.io/Jeveration/)
+- [GitHub – Code and model weights](https://github.com/Carol-lyh/Jeveration)
+
+
+---
+
 ## 18 November 2026
 
 ### ✨ Harness² – Recursive Agent Harnessing
@@ -83,3 +98,21 @@ Graphify is an open-source tool that transforms an existing codebase into a quer
 **References:**
 - [GitHub – Graphify](https://github.com/Graphify-Labs/graphify)
 - [Graphify Documentation](https://docs.graphify.com/)
+
+---
+
+## 14 November 2026
+### ✨ Microsoft Agent Framework 1.0 – Microsoft's unified platform for building enterprise AI agents
+*![Category](https://img.shields.io/badge/AI_Frameworks_&_Platforms-0D9488)*
+
+Microsoft has brought Semantic Kernel and AutoGen together under the Microsoft Agent Framework, reaching GA for Python and .NET on April 3, 2026. The framework combines agent development and multi-agent orchestration with enterprise-oriented capabilities such as middleware, persistent memory, human-in-the-loop approvals and OpenTelemetry-based observability.
+
+An important addition is its graph-based workflow engine, which enables developers to build deterministic agent workflows with branching, parallel execution, checkpointing and recovery. It also introduces declarative YAML configurations for defining agents and workflows, alongside MCP and A2A interoperability. More recent developments extend the framework towards coding-agent orchestration through GitHub Copilot SDK and Claude Code SDK integrations, reusable agent skills and a local debugging experience through DevUI.
+
+This is an important development for teams looking to move beyond experimental multi-agent prototypes towards production-grade, observable and governable agent applications.
+
+**References:**
+- [Microsoft Agent Framework 1.0 announcement](https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-version-1-0/)
+- [Official documentation](https://learn.microsoft.com/en-us/agent-framework/overview)
+- [Observability and OpenTelemetry](https://learn.microsoft.com/en-us/agent-framework/agents/observability)
+- [GitHub repository](https://github.com/microsoft/agent-framework-go)
