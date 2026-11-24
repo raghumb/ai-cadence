@@ -2,6 +2,26 @@
 
 Discover the innovations and developments shaping the future of AI — thoughtfully explored and carefully curated.
 
+## 20 November 2026
+### ✨ Google Agent Substrate — Infrastructure for Running Millions of AI Agents
+*![Category](https://img.shields.io/badge/AI_Infrastructure-0D9488)*
+
+Google is taking agent infrastructure a step beyond traditional container orchestration with **Agent Substrate**, an open-source runtime purpose-built for running millions of stateful AI agents securely and efficiently.
+
+Traditional Kubernetes Pods consume resources even when agents are idle, waiting for LLM responses, tool calls, or human intervention. Agent Substrate introduces an actor-based architecture that separates an agent's state from its underlying compute resources. When an agent becomes idle, its memory and filesystem state can be snapshotted, freeing compute resources. When needed again, the agent can resume in under 500 milliseconds.
+
+Built on Kubernetes, it combines reusable worker pools, isolated execution environments, identity-aware gateways, and support for gVisor and microVMs. The project reached version 1.0 and became generally available on GKE in November 2026. Google has also donated Agent Substrate and gVisor to the CNCF Sandbox, encouraging vendor-neutral community development.
+
+**Why it matters:** As enterprises move from individual AI assistants to fleets of autonomous agents, infrastructure must evolve beyond simply hosting containers. Agent Substrate introduces an important architectural building block for secure, stateful, high-density agent execution.
+
+**References:**
+- [Google Open Source – Introducing Agent Substrate and CNCF donation](https://opensource.googleblog.com/2026/11/sandboxing-untrusted-ai-agents-at-scale.html)
+- [Google Cloud – Open infrastructure for autonomous agents](https://cloud.google.com/blog/products/containers-kubernetes/open-infrastructure-for-autonomous-agents-comes-to-cncf)
+- [GitHub – Agent Substrate](https://github.com/agent-substrate/substrate)
+- [Documentation](https://ate.dev/)
+
+---
+
 ## 19 November 2026
 ### ✨ Jeveration – Bringing System One Thinking to Image Generation
 *![Category](https://img.shields.io/badge/AI_Research-0D9488)*
@@ -13,7 +33,6 @@ Researchers from the National University of Singapore introduce Jeveration, an i
 - [Research paper – arXiv](https://arxiv.org/abs/2611.24738)
 - [Project page and demos](https://carol-lyh.github.io/Jeveration/)
 - [GitHub – Code and model weights](https://github.com/Carol-lyh/Jeveration)
-
 
 ---
 
