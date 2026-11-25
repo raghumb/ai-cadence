@@ -2,6 +2,60 @@
 
 Discover the innovations and developments shaping the future of AI — thoughtfully explored and carefully curated.
 
+## 25 November 2026
+### ✨ Skills over MCP — Bringing Agent Skills to MCP Servers
+*![Category](https://img.shields.io/badge/AI_Infrastructure-0D9488)*
+
+The Model Context Protocol (MCP) is evolving beyond connecting agents to tools and data. The new **Skills over MCP** extension introduces a standardized way for MCP servers to distribute agent skills alongside their tools. Instead of manually installing and maintaining separate `SKILL.md` files across different agent environments, compatible clients can discover and load skills directly from MCP servers when needed.
+
+Based on SEP-2640, the extension uses MCP resources and introduces `skills/list` and `skills/get` for skill discovery and retrieval. This enables organizations to centrally distribute reusable workflows, domain expertise, and operational playbooks while keeping them synchronized with the tools they describe.
+
+This is particularly interesting for enterprise AI adoption: an organization can distribute not just *what an agent can do* through tools, but also *how it should do it* through centrally maintained skills. Anthropic announced public beta support in Claude and Claude Code on November 24, 2026, while Microsoft has also introduced support in VS Code 1.147+.
+
+**References:**
+- [Anthropic – Skills over MCP, Tasks and more](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more)
+- [MCP – Skills Extension (SEP-2640)](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/seps/2640-skills-extension.md)
+- [Microsoft – Skills over MCP in VS Code](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/skills-over-mcp-are-now-available-in-vs-code/4574580)
+- [MCP Skills Extension – Specification](https://skills.extensions.modelcontextprotocol.io/)
+
+---
+## 24 November 2026
+### ✨ Tool Retrieval in Gemini API — Dynamic Tool Discovery for Scalable Agents
+*![Category](https://img.shields.io/badge/AI_Infrastructure-0D9488)*
+
+As AI agents grow to use dozens or even hundreds of tools, including every tool's complete parameter schema in every request creates significant context overhead. Google has introduced **Tool Retrieval** in the Gemini API to address this problem. Instead of loading all tool definitions upfront, agents can discover tools and retrieve their full parameter schemas only when required.
+
+Developers can enable this through a `tool_search` tool and the `defer_loading: true` attribute on functions they want to load on demand. Gemini initially sees the names and descriptions of deferred tools. When it identifies a relevant tool, the API retrieves its full schema and proceeds with function calling within the same request. This reduces unnecessary schema tokens and helps maintain tool-selection accuracy as tool libraries grow.
+
+An interesting aspect is that Tool Retrieval also supports remote MCP servers, allowing agents to connect to large MCP tool collections without loading every exposed tool definition upfront. Google also supports client-side retrieval, enabling applications to search their own tool registries, embedding indexes, or permission-filtered tool catalogs.
+
+This is an important development for agent architecture: **moving from static tool registration towards dynamic, context-aware tool discovery.** It could make large enterprise agent ecosystems considerably more scalable.
+
+**References:**
+- [Google — Introducing Tool Retrieval in the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/)
+- [Gemini API — Tool Retrieval Documentation](https://ai.google.dev/gemini-api/docs/tool-retrieval)
+
+---
+## 23 November 2026
+### ✨ ARISE — Self-Evolving Memory for Enterprise Agents
+*![Category](https://img.shields.io/badge/AI_Research-0D9488)*
+
+Traditional AI agents largely depend on predefined instructions, tools, and static memory. When an agent makes a mistake, developers often need to revisit prompts, modify workflows, or introduce additional logic. **ARISE (Agent Refinement through Iterative Self-Evaluation)** proposes a different approach: allowing agents to learn from their own execution failures by evolving their memory, without retraining the underlying model or changing its tools and workflow logic.
+
+The architecture introduces two complementary memory layers. **Micro memory** stores task-specific corrections derived from individual failures and retrieves relevant corrections for similar future tasks. **Macro memory** consolidates these individual lessons into a small set of generalized rules that are injected into subsequent agent executions. An LLM, either the deployed model itself or a stronger teacher model, analyzes failed execution traces and generates scoped corrections.
+
+What makes ARISE particularly interesting is its validation mechanism. New memory rules are not automatically accepted. Candidate updates are evaluated against held-out validation tasks, and only improvements that clear the accuracy threshold are retained. This prevents unrestricted memory accumulation and provides a controlled mechanism for continuous agent improvement.
+
+The research evaluates ARISE across 14 enterprise workflow domains using five different models. The teacher-guided implementation reports a **10.9 percentage-point accuracy improvement on SOP-Bench** and **5.8 percentage points on τ²-Bench** over the baseline. Even the self-guided version, where the deployment model learns from its own failures, achieves a 10.0-point improvement on SOP-Bench.
+
+ARISE is an interesting step towards production-oriented self-evolving agents. Rather than making agents increasingly complex through additional tools or fine-tuning, it demonstrates how accumulated operational experience can become reusable, validated procedural knowledge. Its emphasis on bounded memory and validation gates is especially relevant to enterprise deployments, although accuracy validation alone does not establish memory safety or policy compliance.
+
+**References:**
+- [ARISE — Original Research Paper (arXiv)](https://arxiv.org/abs/2611.23588)
+- [ARISE — PDF](https://arxiv.org/pdf/2611.23588)
+
+---
+
 ## 20 November 2026
 ### ✨ Google Agent Substrate — Infrastructure for Running Millions of AI Agents
 *![Category](https://img.shields.io/badge/AI_Infrastructure-0D9488)*
