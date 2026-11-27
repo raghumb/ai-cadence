@@ -2,6 +2,28 @@
 
 Discover the innovations and developments shaping the future of AI — thoughtfully explored and carefully curated.
 
+## 26 November 2026
+### ✨ Humanity's First Exam (HFE) – Testing the Reliability of AI Models
+*![Category](https://img.shields.io/badge/AI_Research-0D9488)*
+
+Google DeepMind has introduced **Humanity's First Exam (HFE)**, a benchmark designed to measure whether AI models can consistently answer simple, everyday questions correctly — not just solve them once.
+
+Unlike traditional benchmarks that focus on complex mathematics, coding or scientific reasoning, HFE targets foundational capabilities that humans generally find straightforward. It contains 544 text and image prompts across 20 capabilities, organised into 136 families of related questions. Each family contains four variations of a question, testing whether a model can maintain accuracy when wording, inputs or visual details change.
+
+What makes HFE particularly interesting is its emphasis on consistency. Models are evaluated using repeated independent attempts, measuring both the probability of getting an answer right at least once (pass@k) and the probability of getting every attempt right (pass^k). This exposes a reliability gap that conventional accuracy scores can hide.
+
+The benchmark also uses human reviewers to screen the original questions, ensuring they are genuinely straightforward for people. Google DeepMind has released a public subset of 112 questions on Kaggle, retaining the remaining questions as a private evaluation set.
+
+HFE is a useful reminder that AI progress should not be measured solely by how difficult a problem a model can solve, but also by how reliably it handles the ordinary tasks we trust it with.
+
+**References:**
+- [Humanity's First Exam – Kaggle Benchmark and Leaderboard](https://www.kaggle.com/benchmarks/deepmind/hfe)
+- [Google DeepMind – Official Announcement](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/)
+- [Technical Paper – Humanity's First Exam](https://storage.googleapis.com/deepmind-media/papers/hfe_tech_paper.pdf)
+- [Kaggle – Public Dataset](https://www.kaggle.com/datasets/deepmind/hfe-public)
+
+---
+
 ## 25 November 2026
 ### ✨ Skills over MCP — Bringing Agent Skills to MCP Servers
 *![Category](https://img.shields.io/badge/AI_Infrastructure-0D9488)*
